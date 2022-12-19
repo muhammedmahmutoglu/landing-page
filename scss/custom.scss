@@ -1,0 +1,208 @@
+.navbar {
+  a {
+    margin: 0 !important;
+  }
+}
+.top-content {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 36, 52, 0.603),
+      rgba(15, 72, 128, 0.603)
+    ),
+    url(/ımg/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #0d6efd;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.email {
+  min-width: 6rem;
+  max-width: 30rem;
+  height: 64px;
+}
+
+.abc {
+  display: flex;
+}
+
+.middle-button {
+  height: 64px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.row-bt {
+  &:first-child {
+    margin-top: 100px;
+  }
+  &:last-child {
+    margin-bottom: 100px;
+  }
+}
+
+.col-bt {
+  height: 212px;
+  padding: 15px 0px;
+}
+
+.clearfix {
+  padding-top: 200px;
+}
+
+.bg-col {
+  padding: 3rem !important;
+  margin: 0px;
+}
+
+.bt-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.margin-bottom {
+  margin-bottom: 200px;
+}
+
+.user-header {
+  margin: 120px 0px 50px 0px;
+}
+
+.user-colmn {
+  margin: 20px 0px;
+}
+
+.container-fluid {
+  .user {
+    img {
+      max-width: 12rem;
+    }
+  }
+}
+
+.record {
+  background: linear-gradient(
+      0deg,
+      rgba(19, 36, 52, 0.603),
+      rgba(15, 72, 128, 0.603)
+    ),
+    url(/ımg/bg-masthead.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+.margin-top {
+  margin-top: 120px;
+}
+
+.end-button {
+  height: 64px;
+  width: 100px;
+  margin-left: 20px;
+}
+
+.about {
+  height: 100px;
+
+  a {
+    margin: 50px 10px;
+  }
+
+  p {
+    color: gray;
+  }
+
+  .about-icons {
+    color: #0d6efd;
+    margin: 0px 15px;
+    i {
+      margin: 10px;
+      max-width: 30px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .top-content {
+    padding: 12rem 0rem;
+  }
+
+  .col-bt {
+    p {
+      margin: 0px 190px;
+    }
+  }
+
+  .bg-col {
+    margin: 4rem;
+  }
+
+  .user {
+    p {
+      padding: 1rem 14rem !important ;
+    }
+    &:last-child {
+      margin-bottom: 100px;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  .top-content {
+    padding: 12rem 0rem;
+
+    p {
+      margin: 0px 161px;
+    }
+  }
+
+  .row-bt {
+    &:last-child {
+      margin-bottom: 150px;
+    }
+  }
+  .bg-col {
+    padding: 2rem !important;
+  }
+
+  .user {
+    &:last-child {
+      margin-bottom: 10px;
+    }
+  }
+
+  .email {
+    min-width: 6rem;
+    max-width: 50rem;
+    height: 64px;
+  }
+
+  .about .about-icons {
+    color: #0d6efd;
+    margin: -63px 19px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .top-content {
+    p {
+      margin: 0px 362px;
+    }
+  }
+
+  .email {
+    min-width: 6rem;
+    max-width: 25rem;
+    height: 64px;
+  }
+
+  .bg-col {
+    padding: 5rem !important;
+  }
+}
