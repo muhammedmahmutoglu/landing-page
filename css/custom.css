@@ -3,7 +3,7 @@
   margin: 0 !important; }
 
 .top-content {
-  background: linear-gradient(0deg, rgba(19, 36, 52, 0.603), rgba(15, 72, 128, 0.603)), url(/ımg/bg-masthead.jpg);
+  background: linear-gradient(0deg, rgba(19, 36, 52, 0.603), rgba(15, 72, 128, 0.603)), url(../ımg/bg-masthead.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #0d6efd;
@@ -60,7 +60,7 @@
   max-width: 12rem; }
 
 .record {
-  background: linear-gradient(0deg, rgba(19, 36, 52, 0.603), rgba(15, 72, 128, 0.603)), url(/ımg/bg-masthead.jpg);
+  background: linear-gradient(0deg, rgba(19, 36, 52, 0.603), rgba(15, 72, 128, 0.603)), url(../ımg/bg-masthead.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   padding-top: 8rem;
